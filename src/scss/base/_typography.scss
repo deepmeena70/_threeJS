@@ -1,0 +1,42 @@
+// includes
+@font-face {
+    font-family: jupitexSansSerif;
+    src: url('../fonts/Jupitex Sans Serif.ttf') format('truetype');
+}
+
+// body
+body {
+    font-family: $font-stack;
+    color: $secondary-color;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 3.1em;
+}
+
+h3 {
+    font-size: 2.8em;
+}
+
+h4 {
+    font-size: 2.4em;
+}
+
+h5 {
+    font-size: 1.9em;
+}
+
+.text {
+    font-size: 1.2em;
+    letter-spacing: 0.03em;
+    line-height: 1.2em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
